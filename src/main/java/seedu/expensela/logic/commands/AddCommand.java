@@ -1,7 +1,14 @@
 package seedu.expensela.logic.commands;
 
 import static java.util.Objects.requireNonNull;
-import static seedu.expensela.logic.parser.CliSyntax.*;
+import static seedu.expensela.logic.parser.CliSyntax.PREFIX_AMOUNT;
+import static seedu.expensela.logic.parser.CliSyntax.PREFIX_CATEGORY;
+import static seedu.expensela.logic.parser.CliSyntax.PREFIX_DATE;
+import static seedu.expensela.logic.parser.CliSyntax.PREFIX_NAME;
+import static seedu.expensela.logic.parser.CliSyntax.PREFIX_REMARK;
+import static seedu.expensela.logic.parser.CliSyntax.PREFIX_BUDGET;
+import static seedu.expensela.logic.parser.CliSyntax.PREFIX_RECURRING;
+import static seedu.expensela.logic.parser.CliSyntax.PREFIX_INCOME;
 
 import seedu.expensela.logic.commands.exceptions.CommandException;
 import seedu.expensela.model.Model;
