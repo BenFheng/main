@@ -1,6 +1,8 @@
 package seedu.expensela.logic.parser;
 
-import static seedu.expensela.commons.core.Messages.*;
+import static seedu.expensela.commons.core.Messages.MESSAGE_INVALID_COMMAND_FORMAT;
+import static seedu.expensela.commons.core.Messages.MESSAGE_INVALID_FILTER;
+
 import static seedu.expensela.logic.parser.CliSyntax.PREFIX_CATEGORY;
 import static seedu.expensela.logic.parser.CliSyntax.PREFIX_DATE;
 
